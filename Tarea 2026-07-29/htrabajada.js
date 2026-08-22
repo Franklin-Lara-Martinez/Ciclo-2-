@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("Ingrese el nombre del empleado: ", function(nombre){
-    rl.question("Ingrese las horas trnajsdas : ", function(horas){
+    rl.question("Ingrese las horas trabajadas : ", function(horas){
         rl.question("Ingrese el pago por horas: ", function(pago){
 
             let horasTrabajadas = parseFloat(horas);
