@@ -5,7 +5,7 @@ const actividad = readline.createInterface({
     output: process.stdout
 });
 
-actividad.question("Ingrese la cantidad de entradas diariamente: ", (entradas) => {
+actividad.question("Ingrese la cantidad de entradas vendidas diariamente: ", (entradas) => {
 
     let entradasVendidas = parseInt(entradas);
     let totalAcumulado = 0;
